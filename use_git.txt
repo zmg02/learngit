@@ -10,3 +10,8 @@ git init   初始化git仓库
 git status	掌握工作区状态
 
 git diff	查看修改内容
+
+
+git log		查看从最近到最远的提交日志
+加上参数  --pretty=oneline 参数，使内容简洁
+
