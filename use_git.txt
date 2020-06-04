@@ -5,3 +5,6 @@ git init   初始化git仓库
 
 	1.git add 文件名
 	2.git commit -m '说明'
+	
+
+git is
