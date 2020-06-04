@@ -7,4 +7,6 @@ git init   初始化git仓库
 	2.git commit -m '说明'
 	
 
-git is
+git status	掌握工作区状态
+
+git diff	查看修改内容
