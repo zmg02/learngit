@@ -27,3 +27,13 @@ git reset --hard commit_id
 
 git reflog	查看命令日志
 
+
+git checkout -- file_name	把file_name文件在工作区的修改全部撤销
+1.文件还未放入暂存区，撤销修改就回到和版本库一模一样的状态
+2.已添加到暂存区，又做了修改，现在，撤销修改就回到添加到暂存区后的状态
+总之，就是让这个文件回到最后一次git commit或git add时的状态
+
+
+
+
+
