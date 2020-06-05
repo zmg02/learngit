@@ -15,3 +15,15 @@ git diff	查看修改内容
 git log		查看从最近到最远的提交日志
 加上参数  --pretty=oneline 参数，使内容简洁
 
+HEAD	当前版本
+HEAD^	上一个版本
+HEAD^^	上两个版本
+HEAD~100	上一百个版本
+
+git reset	使用该命令回退版本
+
+git reset --hard HEAD^    返回上一个版本
+git reset --hard commit_id
+
+git reflog	查看命令日志
+
