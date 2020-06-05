@@ -75,6 +75,32 @@ git	clone <url>
 
 分支管理
 
+git checkout -b dev
+-b 参数表示创建并切换，相当于以下两条命令：
+git branch dev
+git checkout dev
+
+
+git checkout master 切换成master分支
+
+git merge dev	把dev分支合并到当前分支上
+
+git branch -d dev	删除dev分支
+
+switch
+git switch -c dev	替换 git checkout -b dev
+git switch master   替换 git checkout master
+
+git branch 查看分支
+git branch <name> 创建分支
+git checkout <name> 或者 git switch <name>	切换分支
+git checkout -b <name> 或者 git switch -c <name> 创建+切换分支
+git merge <name>	合并某分支到当前分支
+git branch -d <name>	删除分支
+
+
+
+
 
 
 
