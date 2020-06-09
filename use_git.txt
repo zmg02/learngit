@@ -105,7 +105,8 @@ git branch -d <name>	删除分支
 重新add commit
 
 
-
+git branch -d <branch> 删除分支
+git branch -D <branch> 强制删除分支
 
 
 
