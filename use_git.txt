@@ -98,11 +98,26 @@ git checkout -b <name> 或者 git switch -c <name> 创建+切换分支
 git merge <name>	合并某分支到当前分支
 git branch -d <name>	删除分支
 
+合并分支 --no-ff 参数表示禁用Fast forward
+
 
 解决冲突
 当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
 修改冲突文件
 重新add commit
+
+BUG分支
+git stash 储存工作现场
+git stash list 查看工作现场
+git stash apply 恢复工作现场 + git stash drop 删除储存的工作现场
+===
+git stash pop 恢复工作现场
+
+git stash app stash@{0} 选择要恢复的工作现场
+
+git cherry-pick <commit> 把提交的修改‘复制’到当前分支
+
+
 
 
 
