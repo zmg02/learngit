@@ -1,12 +1,6 @@
 test
-<<<<<<< HEAD
 git is a free software and i like it...
 Creating a new branch is quick.
 update dev branch
-
-=======
-git is free software...
-Creating a new branch is quick.
-update dev branch
 我正在工作。。。
->>>>>>> dev
+
