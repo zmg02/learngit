@@ -1,0 +1,13 @@
+本地开发分支与远程开发分支关联
+git checkout -b dev origin/dev
+
+如有报错则：
+fatal: 'origin/dev' is not a commit and a branch 'dev' cannot be created from it
+
+推送分支
+git push origin master
+拉取数据
+git pull
+再重新关联
+
+
