@@ -10,4 +10,14 @@ git push origin master
 git pull
 再重新关联
 
+a 开发分支推送到远程开发分支
+b 开发分支推送到远程开发分支冲突
+
+b 推送失败
+git pull  拉取最新代码
+git pull 失败
+没有指定本地dev分支与远程origin/dev分支的链接
+git branch --set-upstream-to=origin/dev dev
+再 git pull
+解决冲突，提交，再push
 
