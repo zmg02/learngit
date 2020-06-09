@@ -118,12 +118,22 @@ git stash app stash@{0} 选择要恢复的工作现场
 git cherry-pick <commit> 把提交的修改‘复制’到当前分支
 
 
-
-
 git branch -d <branch> 删除分支
 git branch -D <branch> 强制删除分支
 
 
+多人协作（推送分支）
+git remote 查看远程库信息
+git remote -v 查看远程库详细信息
+
+git push origin master	推送本地主分支到远程主分支
+
+
+四个分支
+master 主分支，时刻与远程同步
+dev		开发分支，需要同步
+bug		bug分支，视情况而定
+feature	特色分支，视情况而定
 
 
 
